@@ -1,0 +1,20 @@
+[100%] Built target arrays_io
+[100%] Built target merge_arrays_node
+-- Install configuration: ""
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/arrays_io
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.sh
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.dsv
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.bash
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.sh
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.zsh
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.dsv
+-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.dsv
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake
+-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.xml

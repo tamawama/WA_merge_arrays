@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.001069] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.002589] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.026357] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.027456] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.029998] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/npastore/WAChallengeWorkspace/build/merge_arrays', '--', '-j20', '-l20'], 'cwd': '/home/npastore/WAChallengeWorkspace/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npastore'), ('GIT_ASKPASS', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('HOME', '/home/npastore'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-47cc50d9-7ecc-44a7-b984-c9931fb29d08.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'npastore'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Users/npast/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.2.1/bin:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/npast/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62d904df1a.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/npastore/WAChallengeWorkspace/build/merge_arrays'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.074906] (merge_arrays) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target arrays_io\x1b[0m\n'}
+[0.087952] (merge_arrays) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[0.090668] (merge_arrays) StdoutLine: {'line': b'[ 75%] Built target arrays_io\n'}
+[0.098944] (-) TimerEvent: {}
+[0.199467] (-) TimerEvent: {}
+[0.300052] (-) TimerEvent: {}
+[0.400823] (-) TimerEvent: {}
+[0.501490] (-) TimerEvent: {}
+[0.602059] (-) TimerEvent: {}
+[0.702727] (-) TimerEvent: {}
+[0.803320] (-) TimerEvent: {}
+[0.903889] (-) TimerEvent: {}
+[1.004390] (-) TimerEvent: {}
+[1.104925] (-) TimerEvent: {}
+[1.205577] (-) TimerEvent: {}
+[1.306146] (-) TimerEvent: {}
+[1.406814] (-) TimerEvent: {}
+[1.507434] (-) TimerEvent: {}
+[1.608081] (-) TimerEvent: {}
+[1.708629] (-) TimerEvent: {}
+[1.809115] (-) TimerEvent: {}
+[1.909735] (-) TimerEvent: {}
+[2.010210] (-) TimerEvent: {}
+[2.111644] (-) TimerEvent: {}
+[2.212456] (-) TimerEvent: {}
+[2.312930] (-) TimerEvent: {}
+[2.413513] (-) TimerEvent: {}
+[2.514075] (-) TimerEvent: {}
+[2.614636] (-) TimerEvent: {}
+[2.715272] (-) TimerEvent: {}
+[2.815836] (-) TimerEvent: {}
+[2.916465] (-) TimerEvent: {}
+[3.016976] (-) TimerEvent: {}
+[3.117520] (-) TimerEvent: {}
+[3.218045] (-) TimerEvent: {}
+[3.318867] (-) TimerEvent: {}
+[3.419282] (-) TimerEvent: {}
+[3.519915] (-) TimerEvent: {}
+[3.620534] (-) TimerEvent: {}
+[3.721136] (-) TimerEvent: {}
+[3.821658] (-) TimerEvent: {}
+[3.922134] (-) TimerEvent: {}
+[4.022611] (-) TimerEvent: {}
+[4.123085] (-) TimerEvent: {}
+[4.223538] (-) TimerEvent: {}
+[4.323972] (-) TimerEvent: {}
+[4.424560] (-) TimerEvent: {}
+[4.525229] (-) TimerEvent: {}
+[4.625845] (-) TimerEvent: {}
+[4.726391] (-) TimerEvent: {}
+[4.826974] (-) TimerEvent: {}
+[4.927411] (-) TimerEvent: {}
+[5.027894] (-) TimerEvent: {}
+[5.128500] (-) TimerEvent: {}
+[5.229117] (-) TimerEvent: {}
+[5.329695] (-) TimerEvent: {}
+[5.430166] (-) TimerEvent: {}
+[5.531007] (-) TimerEvent: {}
+[5.631644] (-) TimerEvent: {}
+[5.732227] (-) TimerEvent: {}
+[5.832740] (-) TimerEvent: {}
+[5.933195] (-) TimerEvent: {}
+[6.033620] (-) TimerEvent: {}
+[6.134210] (-) TimerEvent: {}
+[6.234684] (-) TimerEvent: {}
+[6.335284] (-) TimerEvent: {}
+[6.435868] (-) TimerEvent: {}
+[6.544079] (-) TimerEvent: {}
+[6.644555] (-) TimerEvent: {}
+[6.745073] (-) TimerEvent: {}
+[6.845677] (-) TimerEvent: {}
+[6.946165] (-) TimerEvent: {}
+[7.046596] (-) TimerEvent: {}
+[7.147179] (-) TimerEvent: {}
+[7.247583] (-) TimerEvent: {}
+[7.348117] (-) TimerEvent: {}
+[7.448613] (-) TimerEvent: {}
+[7.549109] (-) TimerEvent: {}
+[7.649626] (-) TimerEvent: {}
+[7.750257] (-) TimerEvent: {}
+[7.850654] (-) TimerEvent: {}
+[7.951238] (-) TimerEvent: {}
+[8.051648] (-) TimerEvent: {}
+[8.152236] (-) TimerEvent: {}
+[8.252659] (-) TimerEvent: {}
+[8.353276] (-) TimerEvent: {}
+[8.453801] (-) TimerEvent: {}
+[8.554193] (-) TimerEvent: {}
+[8.654754] (-) TimerEvent: {}
+[8.755156] (-) TimerEvent: {}
+[8.855676] (-) TimerEvent: {}
+[8.956109] (-) TimerEvent: {}
+[9.056626] (-) TimerEvent: {}
+[9.157094] (-) TimerEvent: {}
+[9.257655] (-) TimerEvent: {}
+[9.358066] (-) TimerEvent: {}
+[9.458624] (-) TimerEvent: {}
+[9.559172] (-) TimerEvent: {}
+[9.659632] (-) TimerEvent: {}
+[9.760085] (-) TimerEvent: {}
+[9.860524] (-) TimerEvent: {}
+[9.961048] (-) TimerEvent: {}
+[10.061703] (-) TimerEvent: {}
+[10.162208] (-) TimerEvent: {}
+[10.262773] (-) TimerEvent: {}
+[10.363148] (-) TimerEvent: {}
+[10.463667] (-) TimerEvent: {}
+[10.564110] (-) TimerEvent: {}
+[10.664511] (-) TimerEvent: {}
+[10.732521] (merge_arrays) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable merge_arrays_node\x1b[0m\n'}
+[10.764784] (-) TimerEvent: {}
+[10.865266] (-) TimerEvent: {}
+[10.965868] (-) TimerEvent: {}
+[11.066464] (-) TimerEvent: {}
+[11.167027] (-) TimerEvent: {}
+[11.267509] (-) TimerEvent: {}
+[11.367948] (-) TimerEvent: {}
+[11.468339] (-) TimerEvent: {}
+[11.517441] (merge_arrays) StdoutLine: {'line': b'[100%] Built target merge_arrays_node\n'}
+[11.530189] (merge_arrays) CommandEnded: {'returncode': 0}
+[11.554109] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'install'}
+[11.562539] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/npastore/WAChallengeWorkspace/build/merge_arrays'], 'cwd': '/home/npastore/WAChallengeWorkspace/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npastore'), ('GIT_ASKPASS', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('HOME', '/home/npastore'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-47cc50d9-7ecc-44a7-b984-c9931fb29d08.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'npastore'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/508_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Users/npast/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.2.1/bin:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/npast/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62d904df1a.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/npastore/WAChallengeWorkspace/build/merge_arrays'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[11.568500] (-) TimerEvent: {}
+[11.569106] (merge_arrays) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.569923] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node\n'}
+[11.578159] (merge_arrays) StdoutLine: {'line': b'-- Set runtime path of "/home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""\n'}
+[11.578410] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/arrays_io\n'}
+[11.578587] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays\n'}
+[11.578917] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays\n'}
+[11.579173] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh\n'}
+[11.579301] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv\n'}
+[11.579364] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.sh\n'}
+[11.579418] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.dsv\n'}
+[11.579466] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.bash\n'}
+[11.579513] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.sh\n'}
+[11.579690] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.zsh\n'}
+[11.579769] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.dsv\n'}
+[11.579822] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.dsv\n'}
+[11.579873] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays\n'}
+[11.579921] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake\n'}
+[11.579968] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake\n'}
+[11.580025] (merge_arrays) StdoutLine: {'line': b'-- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.xml\n'}
+[11.586336] (merge_arrays) CommandEnded: {'returncode': 0}
+[11.668685] (-) TimerEvent: {}
+[11.680785] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 0}
+[11.682077] (-) EventReactorShutdown: {}

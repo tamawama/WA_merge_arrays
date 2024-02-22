@@ -1,0 +1,19 @@
+[0.013s] Invoking command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20
+[0.066s] [ 50%] Built target merge_arrays_node
+[0.066s] [ 75%] [32mBuilding CXX object CMakeFiles/arrays_io.dir/src/arrays_io.cpp.o[0m
+[1.435s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/arrays_io.cpp:[m[K In member function ‘[01m[Kvoid arrays_io::output_callback(const Int32MultiArray&)[m[K’:
+[1.435s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/arrays_io.cpp:30:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.435s]    30 |     void output_callback([01;35m[Kconst std_msgs::msg::Int32MultiArray & arr[m[K){
+[1.435s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.439s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/arrays_io.cpp:[m[K In member function ‘[01m[Kvoid arrays_io::timer_callback()[m[K’:
+[1.439s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/arrays_io.cpp:45:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[1.439s]    45 |       [01;31m[Kmessage[m[K.data = "Hello, world! " + std::to_string(count_++);
+[1.439s]       |       [01;31m[K^~~~~~~[m[K
+[1.444s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/arrays_io.cpp:47:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.444s]    47 |       [01;31m[Kpublisher_[m[K->publish(message);
+[1.444s]       |       [01;31m[K^~~~~~~~~~[m[K
+[1.444s]       |       [32m[Krmw_publisher_t[m[K
+[2.862s] gmake[2]: *** [CMakeFiles/arrays_io.dir/build.make:76: CMakeFiles/arrays_io.dir/src/arrays_io.cpp.o] Error 1
+[2.862s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arrays_io.dir/all] Error 2
+[2.862s] gmake: *** [Makefile:146: all] Error 2
+[2.864s] Invoked command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays' returned '2': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20

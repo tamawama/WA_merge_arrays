@@ -1,0 +1,11 @@
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/uninstall.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/merge_arrays_uninstall.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/merge_arrays_node.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/arrays_io.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/test.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/edit_cache.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/rebuild_cache.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/list_install_components.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/install.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/install/local.dir
+/home/npastore/WAChallengeWorkspace/build/merge_arrays/CMakeFiles/install/strip.dir

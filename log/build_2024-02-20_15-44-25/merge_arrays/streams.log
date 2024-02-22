@@ -1,0 +1,39 @@
+[0.081s] Invoking command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target merge_arrays_node[0m
+[0.157s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[3.489s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:[m[K In member function ‘[01m[Kvoid merge_arrays_node::merge()[m[K’:
+[3.489s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:48:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.489s]    48 |       while ([01;35m[Ki < array1.size()[m[K || j < array2.size())
+[3.489s]       |              [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:48:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.490s]    48 |       while (i < array1.size() || [01;35m[Kj < array2.size()[m[K)
+[3.490s]       |                                   [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:59:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.490s]    59 |       while ([01;35m[Ki < array1.size()[m[K){
+[3.490s]       |              [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[3.490s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:63:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.490s]    63 |       while ([01;35m[Kj < array2.size()[m[K){
+[3.490s]       |              [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[11.140s] [100%] [32m[1mLinking CXX executable merge_arrays_node[0m
+[11.820s] [100%] Built target merge_arrays_node
+[11.831s] Invoked command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20
+[11.865s] Invoking command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/npastore/WAChallengeWorkspace/build/merge_arrays
+[11.871s] -- Install configuration: ""
+[11.873s] -- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node
+[11.877s] -- Set runtime path of "/home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.sh
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.dsv
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.bash
+[11.878s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.sh
+[11.879s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.zsh
+[11.879s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.dsv
+[11.879s] -- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.dsv
+[11.879s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays
+[11.879s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake
+[11.879s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake
+[11.880s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.xml
+[11.881s] Invoked command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/npastore/WAChallengeWorkspace/build/merge_arrays

@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target arrays_io[0m
+[0.045s] [ 25%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/arrays_io.dir/src/arrays_io.cpp.o[0m
+[4.944s] [ 75%] [32m[1mLinking CXX executable merge_arrays_node[0m
+[4.989s] [100%] [32m[1mLinking CXX executable arrays_io[0m
+[5.226s] [100%] Built target merge_arrays_node
+[5.264s] [100%] Built target arrays_io
+[5.268s] Invoked command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays' returned '0': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20
+[5.284s] Invoking command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/npastore/WAChallengeWorkspace/build/merge_arrays
+[5.287s] -- Install configuration: ""
+[5.287s] -- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node
+[5.290s] -- Set runtime path of "/home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""
+[5.290s] -- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/arrays_io
+[5.293s] -- Set runtime path of "/home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/arrays_io" to ""
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.sh
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.dsv
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.bash
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.sh
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.zsh
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.dsv
+[5.294s] -- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.dsv
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake
+[5.294s] -- Up-to-date: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.xml
+[5.295s] Invoked command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays' returned '0': WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --install /home/npastore/WAChallengeWorkspace/build/merge_arrays

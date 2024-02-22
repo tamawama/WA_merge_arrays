@@ -1,0 +1,399 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (merge_arrays) JobQueued: {'identifier': 'merge_arrays', 'dependencies': OrderedDict()}
+[0.000926] (merge_arrays) JobStarted: {'identifier': 'merge_arrays'}
+[0.074069] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'cmake'}
+[0.074988] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'build'}
+[0.076100] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/npastore/WAChallengeWorkspace/build/merge_arrays', '--', '-j20', '-l20'], 'cwd': '/home/npastore/WAChallengeWorkspace/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npastore'), ('GIT_ASKPASS', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npastore'), ('OLDPWD', '/home/npastore'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3df788d1-1110-4cab-987a-f469d9b22a6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/npastore/WAChallengeWorkspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'npastore'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/465_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.0.9.0_x64__8wekyb3d8bbwe:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Users/npast/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.2.1/bin:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/npast/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62d904df1a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/npastore/WAChallengeWorkspace/build/merge_arrays'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099266] (-) TimerEvent: {}
+[0.104655] (merge_arrays) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199454] (-) TimerEvent: {}
+[0.300035] (-) TimerEvent: {}
+[0.316603] (merge_arrays) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400253] (-) TimerEvent: {}
+[0.500892] (-) TimerEvent: {}
+[0.601559] (-) TimerEvent: {}
+[0.702178] (-) TimerEvent: {}
+[0.761413] (merge_arrays) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.763782] (merge_arrays) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.770166] (merge_arrays) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.781593] (merge_arrays) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.797067] (merge_arrays) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802330] (-) TimerEvent: {}
+[0.865891] (merge_arrays) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.867230] (merge_arrays) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.902579] (-) TimerEvent: {}
+[1.003122] (-) TimerEvent: {}
+[1.104054] (-) TimerEvent: {}
+[1.204783] (-) TimerEvent: {}
+[1.305378] (-) TimerEvent: {}
+[1.406058] (-) TimerEvent: {}
+[1.506774] (-) TimerEvent: {}
+[1.607443] (-) TimerEvent: {}
+[1.708121] (-) TimerEvent: {}
+[1.808840] (-) TimerEvent: {}
+[1.909773] (-) TimerEvent: {}
+[2.010533] (-) TimerEvent: {}
+[2.111122] (-) TimerEvent: {}
+[2.211705] (-) TimerEvent: {}
+[2.312309] (-) TimerEvent: {}
+[2.412926] (-) TimerEvent: {}
+[2.513527] (-) TimerEvent: {}
+[2.614164] (-) TimerEvent: {}
+[2.714791] (-) TimerEvent: {}
+[2.815452] (-) TimerEvent: {}
+[2.916051] (-) TimerEvent: {}
+[3.016734] (-) TimerEvent: {}
+[3.117279] (-) TimerEvent: {}
+[3.217961] (-) TimerEvent: {}
+[3.318612] (-) TimerEvent: {}
+[3.419233] (-) TimerEvent: {}
+[3.519900] (-) TimerEvent: {}
+[3.620616] (-) TimerEvent: {}
+[3.721273] (-) TimerEvent: {}
+[3.821845] (-) TimerEvent: {}
+[3.922612] (-) TimerEvent: {}
+[4.023254] (-) TimerEvent: {}
+[4.123819] (-) TimerEvent: {}
+[4.224326] (-) TimerEvent: {}
+[4.324848] (-) TimerEvent: {}
+[4.425341] (-) TimerEvent: {}
+[4.525899] (-) TimerEvent: {}
+[4.626563] (-) TimerEvent: {}
+[4.727156] (-) TimerEvent: {}
+[4.827722] (-) TimerEvent: {}
+[4.928344] (-) TimerEvent: {}
+[5.028866] (-) TimerEvent: {}
+[5.129584] (-) TimerEvent: {}
+[5.230176] (-) TimerEvent: {}
+[5.330701] (-) TimerEvent: {}
+[5.431185] (-) TimerEvent: {}
+[5.531635] (-) TimerEvent: {}
+[5.632067] (-) TimerEvent: {}
+[5.732522] (-) TimerEvent: {}
+[5.833002] (-) TimerEvent: {}
+[5.933459] (-) TimerEvent: {}
+[6.033999] (-) TimerEvent: {}
+[6.134588] (-) TimerEvent: {}
+[6.235342] (-) TimerEvent: {}
+[6.336020] (-) TimerEvent: {}
+[6.436646] (-) TimerEvent: {}
+[6.537277] (-) TimerEvent: {}
+[6.638122] (-) TimerEvent: {}
+[6.738929] (-) TimerEvent: {}
+[6.839857] (-) TimerEvent: {}
+[6.940490] (-) TimerEvent: {}
+[7.041039] (-) TimerEvent: {}
+[7.141687] (-) TimerEvent: {}
+[7.242289] (-) TimerEvent: {}
+[7.343058] (-) TimerEvent: {}
+[7.444131] (-) TimerEvent: {}
+[7.544896] (-) TimerEvent: {}
+[7.645566] (-) TimerEvent: {}
+[7.746195] (-) TimerEvent: {}
+[7.846807] (-) TimerEvent: {}
+[7.947455] (-) TimerEvent: {}
+[8.048101] (-) TimerEvent: {}
+[8.148518] (-) TimerEvent: {}
+[8.249040] (-) TimerEvent: {}
+[8.349582] (-) TimerEvent: {}
+[8.450378] (-) TimerEvent: {}
+[8.551004] (-) TimerEvent: {}
+[8.651568] (-) TimerEvent: {}
+[8.752045] (-) TimerEvent: {}
+[8.852489] (-) TimerEvent: {}
+[8.952973] (-) TimerEvent: {}
+[9.053488] (-) TimerEvent: {}
+[9.153954] (-) TimerEvent: {}
+[9.254485] (-) TimerEvent: {}
+[9.355042] (-) TimerEvent: {}
+[9.455787] (-) TimerEvent: {}
+[9.556484] (-) TimerEvent: {}
+[9.657002] (-) TimerEvent: {}
+[9.757607] (-) TimerEvent: {}
+[9.858150] (-) TimerEvent: {}
+[9.958635] (-) TimerEvent: {}
+[10.059156] (-) TimerEvent: {}
+[10.159674] (-) TimerEvent: {}
+[10.260172] (-) TimerEvent: {}
+[10.360700] (-) TimerEvent: {}
+[10.461316] (-) TimerEvent: {}
+[10.561874] (-) TimerEvent: {}
+[10.662412] (-) TimerEvent: {}
+[10.768623] (-) TimerEvent: {}
+[10.869132] (-) TimerEvent: {}
+[10.969610] (-) TimerEvent: {}
+[11.070154] (-) TimerEvent: {}
+[11.170612] (-) TimerEvent: {}
+[11.271102] (-) TimerEvent: {}
+[11.371673] (-) TimerEvent: {}
+[11.472336] (-) TimerEvent: {}
+[11.573039] (-) TimerEvent: {}
+[11.673745] (-) TimerEvent: {}
+[11.774233] (-) TimerEvent: {}
+[11.874836] (-) TimerEvent: {}
+[11.975324] (-) TimerEvent: {}
+[12.075795] (-) TimerEvent: {}
+[12.176296] (-) TimerEvent: {}
+[12.277002] (-) TimerEvent: {}
+[12.377691] (-) TimerEvent: {}
+[12.478233] (-) TimerEvent: {}
+[12.578696] (-) TimerEvent: {}
+[12.679125] (-) TimerEvent: {}
+[12.780318] (-) TimerEvent: {}
+[12.880918] (-) TimerEvent: {}
+[12.981687] (-) TimerEvent: {}
+[13.082202] (-) TimerEvent: {}
+[13.182675] (-) TimerEvent: {}
+[13.283180] (-) TimerEvent: {}
+[13.383752] (-) TimerEvent: {}
+[13.484208] (-) TimerEvent: {}
+[13.584698] (-) TimerEvent: {}
+[13.685379] (-) TimerEvent: {}
+[13.786075] (-) TimerEvent: {}
+[13.886792] (-) TimerEvent: {}
+[13.987627] (-) TimerEvent: {}
+[14.088532] (-) TimerEvent: {}
+[14.189835] (-) TimerEvent: {}
+[14.290459] (-) TimerEvent: {}
+[14.391133] (-) TimerEvent: {}
+[14.491772] (-) TimerEvent: {}
+[14.592342] (-) TimerEvent: {}
+[14.692992] (-) TimerEvent: {}
+[14.793689] (-) TimerEvent: {}
+[14.894402] (-) TimerEvent: {}
+[14.994981] (-) TimerEvent: {}
+[15.095715] (-) TimerEvent: {}
+[15.196317] (-) TimerEvent: {}
+[15.297035] (-) TimerEvent: {}
+[15.397624] (-) TimerEvent: {}
+[15.498444] (-) TimerEvent: {}
+[15.599359] (-) TimerEvent: {}
+[15.700044] (-) TimerEvent: {}
+[15.800816] (-) TimerEvent: {}
+[15.901371] (-) TimerEvent: {}
+[16.001964] (-) TimerEvent: {}
+[16.102611] (-) TimerEvent: {}
+[16.203255] (-) TimerEvent: {}
+[16.303814] (-) TimerEvent: {}
+[16.404372] (-) TimerEvent: {}
+[16.505261] (-) TimerEvent: {}
+[16.605937] (-) TimerEvent: {}
+[16.706449] (-) TimerEvent: {}
+[16.806918] (-) TimerEvent: {}
+[16.907779] (-) TimerEvent: {}
+[17.008590] (-) TimerEvent: {}
+[17.109355] (-) TimerEvent: {}
+[17.209948] (-) TimerEvent: {}
+[17.310524] (-) TimerEvent: {}
+[17.411091] (-) TimerEvent: {}
+[17.511958] (-) TimerEvent: {}
+[17.612903] (-) TimerEvent: {}
+[17.713484] (-) TimerEvent: {}
+[17.814415] (-) TimerEvent: {}
+[17.908202] (merge_arrays) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[17.914669] (-) TimerEvent: {}
+[18.015204] (-) TimerEvent: {}
+[18.095409] (merge_arrays) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[18.115453] (-) TimerEvent: {}
+[18.190820] (merge_arrays) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[18.191105] (merge_arrays) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/npastore/WAChallengeWorkspace/src/merge_arrays/include>\n'}
+[18.191197] (merge_arrays) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[18.191840] (merge_arrays) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.192702] (merge_arrays) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[18.192871] (merge_arrays) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[18.193234] (merge_arrays) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.194766] (merge_arrays) StdoutLine: {'line': b'-- Configuring done\n'}
+[18.205431] (merge_arrays) StdoutLine: {'line': b'-- Generating done\n'}
+[18.208543] (merge_arrays) StdoutLine: {'line': b'-- Build files have been written to: /home/npastore/WAChallengeWorkspace/build/merge_arrays\n'}
+[18.215608] (-) TimerEvent: {}
+[18.257504] (merge_arrays) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o\x1b[0m\n'}
+[18.315779] (-) TimerEvent: {}
+[18.416295] (-) TimerEvent: {}
+[18.516904] (-) TimerEvent: {}
+[18.617684] (-) TimerEvent: {}
+[18.718203] (-) TimerEvent: {}
+[18.818660] (-) TimerEvent: {}
+[18.919279] (-) TimerEvent: {}
+[19.019905] (-) TimerEvent: {}
+[19.120373] (-) TimerEvent: {}
+[19.221020] (-) TimerEvent: {}
+[19.321523] (-) TimerEvent: {}
+[19.422007] (-) TimerEvent: {}
+[19.522495] (-) TimerEvent: {}
+[19.623373] (-) TimerEvent: {}
+[19.723864] (-) TimerEvent: {}
+[19.824383] (-) TimerEvent: {}
+[19.924889] (-) TimerEvent: {}
+[20.025403] (-) TimerEvent: {}
+[20.126000] (-) TimerEvent: {}
+[20.226716] (-) TimerEvent: {}
+[20.327468] (-) TimerEvent: {}
+[20.428112] (-) TimerEvent: {}
+[20.528811] (-) TimerEvent: {}
+[20.629465] (-) TimerEvent: {}
+[20.730080] (-) TimerEvent: {}
+[20.830823] (-) TimerEvent: {}
+[20.931463] (-) TimerEvent: {}
+[21.032034] (-) TimerEvent: {}
+[21.132588] (-) TimerEvent: {}
+[21.233179] (-) TimerEvent: {}
+[21.333882] (-) TimerEvent: {}
+[21.434532] (-) TimerEvent: {}
+[21.535406] (-) TimerEvent: {}
+[21.636211] (-) TimerEvent: {}
+[21.666251] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid merge_arrays_node::merge()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.667049] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:48:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.667197] (merge_arrays) StderrLine: {'line': b'   48 |       while (\x1b[01;35m\x1b[Ki < array1.size()\x1b[m\x1b[K || j < array2.size())\n'}
+[21.667288] (merge_arrays) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.667364] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:48:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.667465] (merge_arrays) StderrLine: {'line': b'   48 |       while (i < array1.size() || \x1b[01;35m\x1b[Kj < array2.size()\x1b[m\x1b[K)\n'}
+[21.667542] (merge_arrays) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.667630] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:59:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.667700] (merge_arrays) StderrLine: {'line': b'   59 |       while (\x1b[01;35m\x1b[Ki < array1.size()\x1b[m\x1b[K){\n'}
+[21.667748] (merge_arrays) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.667905] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:63:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.668030] (merge_arrays) StderrLine: {'line': b'   63 |       while (\x1b[01;35m\x1b[Kj < array2.size()\x1b[m\x1b[K){\n'}
+[21.668106] (merge_arrays) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.669218] (merge_arrays) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[21.669377] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[21.669447] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[21.669512] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[21.669591] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[21.669641] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[21.669687] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[21.669733] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[21.669800] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[21.669848] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[21.669895] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[21.669947] (merge_arrays) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:6\x1b[m\x1b[K:\n'}
+[21.670021] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:72:39:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%s\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.670094] (merge_arrays) StderrLine: {'line': b'   72 |       RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%s\'"\x1b[m\x1b[K, vector_str);\n'}
+[21.670190] (merge_arrays) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[21.670263] (merge_arrays) StderrLine: {'line': b'\x1b[01m\x1b[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:72:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[21.670339] (merge_arrays) StderrLine: {'line': b'   72 |       RCLCPP_INFO(this->get_logger(), "Publishing: \'\x1b[01;36m\x1b[K%s\x1b[m\x1b[K\'", vector_str);\n'}
+[21.670517] (merge_arrays) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[21.670662] (merge_arrays) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[21.670776] (merge_arrays) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[Kchar*\x1b[m\x1b[K\n'}
+[21.736451] (-) TimerEvent: {}
+[21.837010] (-) TimerEvent: {}
+[21.937625] (-) TimerEvent: {}
+[22.038267] (-) TimerEvent: {}
+[22.139003] (-) TimerEvent: {}
+[22.239588] (-) TimerEvent: {}
+[22.340121] (-) TimerEvent: {}
+[22.440671] (-) TimerEvent: {}
+[22.541231] (-) TimerEvent: {}
+[22.641813] (-) TimerEvent: {}
+[22.742511] (-) TimerEvent: {}
+[22.843167] (-) TimerEvent: {}
+[22.943649] (-) TimerEvent: {}
+[23.044216] (-) TimerEvent: {}
+[23.144762] (-) TimerEvent: {}
+[23.245337] (-) TimerEvent: {}
+[23.346055] (-) TimerEvent: {}
+[23.446577] (-) TimerEvent: {}
+[23.547166] (-) TimerEvent: {}
+[23.647728] (-) TimerEvent: {}
+[23.748429] (-) TimerEvent: {}
+[23.848884] (-) TimerEvent: {}
+[23.949458] (-) TimerEvent: {}
+[24.050650] (-) TimerEvent: {}
+[24.152035] (-) TimerEvent: {}
+[24.252545] (-) TimerEvent: {}
+[24.353084] (-) TimerEvent: {}
+[24.453661] (-) TimerEvent: {}
+[24.554221] (-) TimerEvent: {}
+[24.654866] (-) TimerEvent: {}
+[24.755398] (-) TimerEvent: {}
+[24.856066] (-) TimerEvent: {}
+[24.956604] (-) TimerEvent: {}
+[25.057063] (-) TimerEvent: {}
+[25.158171] (-) TimerEvent: {}
+[25.258612] (-) TimerEvent: {}
+[25.359153] (-) TimerEvent: {}
+[25.459627] (-) TimerEvent: {}
+[25.560263] (-) TimerEvent: {}
+[25.661064] (-) TimerEvent: {}
+[25.761554] (-) TimerEvent: {}
+[25.862116] (-) TimerEvent: {}
+[25.962621] (-) TimerEvent: {}
+[26.063341] (-) TimerEvent: {}
+[26.163949] (-) TimerEvent: {}
+[26.264459] (-) TimerEvent: {}
+[26.364963] (-) TimerEvent: {}
+[26.465404] (-) TimerEvent: {}
+[26.566109] (-) TimerEvent: {}
+[26.666577] (-) TimerEvent: {}
+[26.767149] (-) TimerEvent: {}
+[26.867691] (-) TimerEvent: {}
+[26.968385] (-) TimerEvent: {}
+[27.068924] (-) TimerEvent: {}
+[27.169378] (-) TimerEvent: {}
+[27.269937] (-) TimerEvent: {}
+[27.370591] (-) TimerEvent: {}
+[27.471154] (-) TimerEvent: {}
+[27.571728] (-) TimerEvent: {}
+[27.672187] (-) TimerEvent: {}
+[27.772777] (-) TimerEvent: {}
+[27.873217] (-) TimerEvent: {}
+[27.973790] (-) TimerEvent: {}
+[28.074525] (-) TimerEvent: {}
+[28.175073] (-) TimerEvent: {}
+[28.275556] (-) TimerEvent: {}
+[28.376010] (-) TimerEvent: {}
+[28.476601] (-) TimerEvent: {}
+[28.577053] (-) TimerEvent: {}
+[28.677529] (-) TimerEvent: {}
+[28.777992] (-) TimerEvent: {}
+[28.878734] (-) TimerEvent: {}
+[28.979193] (-) TimerEvent: {}
+[29.079735] (-) TimerEvent: {}
+[29.180626] (-) TimerEvent: {}
+[29.281347] (-) TimerEvent: {}
+[29.381940] (-) TimerEvent: {}
+[29.482400] (-) TimerEvent: {}
+[29.582876] (-) TimerEvent: {}
+[29.684227] (-) TimerEvent: {}
+[29.784775] (-) TimerEvent: {}
+[29.885619] (-) TimerEvent: {}
+[29.986379] (-) TimerEvent: {}
+[30.086844] (-) TimerEvent: {}
+[30.187380] (-) TimerEvent: {}
+[30.288062] (-) TimerEvent: {}
+[30.388653] (-) TimerEvent: {}
+[30.489219] (-) TimerEvent: {}
+[30.589701] (-) TimerEvent: {}
+[30.609233] (merge_arrays) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable merge_arrays_node\x1b[0m\n'}
+[30.689900] (-) TimerEvent: {}
+[30.790344] (-) TimerEvent: {}
+[30.890863] (-) TimerEvent: {}
+[30.991483] (-) TimerEvent: {}
+[31.092427] (-) TimerEvent: {}
+[31.192925] (-) TimerEvent: {}
+[31.281969] (merge_arrays) StdoutLine: {'line': b'[100%] Built target merge_arrays_node\n'}
+[31.293043] (-) TimerEvent: {}
+[31.294737] (merge_arrays) CommandEnded: {'returncode': 0}
+[31.321770] (merge_arrays) JobProgress: {'identifier': 'merge_arrays', 'progress': 'install'}
+[31.329668] (merge_arrays) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/npastore/WAChallengeWorkspace/build/merge_arrays'], 'cwd': '/home/npastore/WAChallengeWorkspace/build/merge_arrays', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npastore'), ('GIT_ASKPASS', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npastore'), ('OLDPWD', '/home/npastore'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-3df788d1-1110-4cab-987a-f469d9b22a6f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/npastore/WAChallengeWorkspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'npastore'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/465_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/npastore/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.0.9.0_x64__8wekyb3d8bbwe:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/ProgramData/chocolatey/lib/cunit/lib:/mnt/c/ProgramData/chocolatey/lib/tinyxml2/lib:/mnt/c/ProgramData/chocolatey/lib/bullet/lib:/mnt/c/Program Files/Graphviz/bin:/mnt/c/Users/npast/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.2.1/bin:/mnt/c/Users/npast/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/OpenSSL-Win64/bin/:/mnt/c/Users/npast/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-62d904df1a.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/npastore/WAChallengeWorkspace/build/merge_arrays'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[31.336412] (merge_arrays) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.336779] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node\n'}
+[31.340923] (merge_arrays) StdoutLine: {'line': b'-- Set runtime path of "/home/npastore/WAChallengeWorkspace/install/merge_arrays/lib/merge_arrays/merge_arrays_node" to ""\n'}
+[31.341873] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/package_run_dependencies/merge_arrays\n'}
+[31.342544] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/parent_prefix_path/merge_arrays\n'}
+[31.343225] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.sh\n'}
+[31.343662] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/ament_prefix_path.dsv\n'}
+[31.344409] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.sh\n'}
+[31.344504] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/environment/path.dsv\n'}
+[31.344561] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.bash\n'}
+[31.344612] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.sh\n'}
+[31.344662] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.zsh\n'}
+[31.344720] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/local_setup.dsv\n'}
+[31.344922] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.dsv\n'}
+[31.345005] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/ament_index/resource_index/packages/merge_arrays\n'}
+[31.345275] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig.cmake\n'}
+[31.345516] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/cmake/merge_arraysConfig-version.cmake\n'}
+[31.345607] (merge_arrays) StdoutLine: {'line': b'-- Installing: /home/npastore/WAChallengeWorkspace/install/merge_arrays/share/merge_arrays/package.xml\n'}
+[31.348534] (merge_arrays) CommandEnded: {'returncode': 0}
+[31.393215] (-) TimerEvent: {}
+[31.490538] (merge_arrays) JobEnded: {'identifier': 'merge_arrays', 'rc': 0}
+[31.491992] (-) EventReactorShutdown: {}

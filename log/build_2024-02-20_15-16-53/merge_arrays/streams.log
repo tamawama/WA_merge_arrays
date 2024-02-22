@@ -1,0 +1,10 @@
+[0.047s] Invoking command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o[0m
+[0.153s] [01m[K/home/npastore/WAChallengeWorkspace/src/merge_arrays/src/merge_arrays_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.153s]     6 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.153s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.153s] compilation terminated.
+[0.156s] gmake[2]: *** [CMakeFiles/merge_arrays_node.dir/build.make:76: CMakeFiles/merge_arrays_node.dir/src/merge_arrays_node.cpp.o] Error 1
+[0.156s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/merge_arrays_node.dir/all] Error 2
+[0.156s] gmake: *** [Makefile:146: all] Error 2
+[0.160s] Invoked command in '/home/npastore/WAChallengeWorkspace/build/merge_arrays' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w: /usr/bin/cmake --build /home/npastore/WAChallengeWorkspace/build/merge_arrays -- -j20 -l20
